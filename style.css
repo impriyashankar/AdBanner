@@ -65,7 +65,7 @@ a {
   display: flex;
   height: 100%;
   padding-left: 12px;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
   background: #212E40;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -80,7 +80,7 @@ a {
   display: flex;
 
   align-items: flex-start;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .content {
@@ -88,8 +88,10 @@ a {
 }
 
 .section-left > .content {
-  width: 353px;
-  height: 249px;
+  /* width: 353px;
+  height: 249px; */
+  /* width: 37.5%;
+  height: 15.6rem; */
 
 }
 
@@ -143,9 +145,9 @@ a {
 .main-banner-content .text-content {
   display: inline-flex;
   height: 174px;
-  padding: 38.5px 0 0 23px;
+  padding: 38.5px 9px 0 23px;
   align-items: center;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   position: relative;
 }
 
@@ -163,7 +165,7 @@ a {
 
 .info-box {
   display: flex;
-  width: 270px;
+  /* width: 270px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
@@ -180,7 +182,7 @@ a {
 
 .list {
   display: flex;
-  width: 291px;
+  /* width: 291px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 6px;
@@ -196,10 +198,10 @@ a {
 
 .list-item p {
   text-transform: capitalize;
-  width: 215px;
+  /* width: 215px; */
 }
 
-.sub-header>p {
+.sub-header > p {
   color: #FFF;
   font-family: 'VWBannerRegular';
   font-size: 1rem;
@@ -232,43 +234,46 @@ a {
 }
 
 .main-banner-container .image-content>div:not(.overlay-golf) {
-  width: 201px;
+  /* width: 201px; */
+  width: 33.33%;
   height: 250px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   border: 0px solid #000;
   position: relative;
   box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
 }
 
-.image-content>.golf {
+.image-content > .golf {
   position: relative;
   background-image: url('assets/images/golf-home-page.png');
   background-position: -53.341px 25.558px;
   background-size: 157.7% 84.538%;
 }
 
-.image-content>.passat {
+.image-content > .passat {
   background-image: url('assets/images/passat-home-page.png');
   background-position: -39.51px 31.644px;
   background-size: 146.58% 78.577%;
 }
 
-.image-content>.passat-v {
+.image-content > .passat-v {
   background-image: url('assets/images/passat-v-home-page.png');
   background-position: -40.891px 36.512px;
   background-size: 141.617% 75.916%;
 }
 
-.golf>p,
-.passat>p,
-.passat-v>p {
+.golf > p,
+.passat > p,
+.passat-v > p {
   color: #212E40;
   font-family: 'VWBannerBold';
   font-size: .875rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 105%;
+  position: absolute;
+  bottom: 14px;
+  left: 5px;
 }
 
 .main-banner-container .overlay-golf,
@@ -365,7 +370,7 @@ a {
   color: #FFF;
   text-align: center;
   font-family: 'VWBannerRegular';
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: capitalize;
   width: 70px;
   height: 34px;
