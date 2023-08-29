@@ -1,5 +1,7 @@
 # AdBanner
-## Thought Process: 
+
+Live page [_here_](https://impriyashankar.github.io/AdBanner/).
+## Background: 
 
 As the target audience is the business market, I attempted to include subtle animations and interactions. The user is invited to unveil a better look of the car models through continuous colour overlays on the cars. A close button on the new display helps close the modal and return to home display.
 
