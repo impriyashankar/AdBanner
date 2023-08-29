@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'VWBannerBold';
+  src: url('assets/fonts/VWHeadOffice-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VWBannerRegular';
+  src: url('assets/fonts/VWHeadOffice-Regular.ttf') format('truetype');
+}
+
+body,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 ! important;
+}
+
+.main-banner-container {
+  position: relative;
+}
+
+.modal-3-car-display,
+.modal-golf-car-display,
+.modal-passat-car-display,
+.modal-passat-v-car-display {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner-container,
+.modal-3-car-display,
+.modal-golf-car-display,
+.modal-passat-car-display,
+.modal-passat-v-car-display {
+  max-width: 970px;
+  width: 100%;
+}
+
+.main-banner-content,
+.banner-content {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal-3-car-display .banner-content,
+.modal-golf-car-display .banner-content,
+.modal-passat-car-display .banner-content,
+.modal-passat-v-car-display .banner-content {
+  background: #212E40;
+}
+
+.section-left {
+  display: flex;
+  height: 100%;
+  padding-left: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  background: #212E40;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-content {
+  width: 605px;
+  height: 100%;
+}
+
+.main-banner-container .image-content {
+  display: flex;
+
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.section-left > .content {
+  width: 353px;
+  height: 249px;
+
+}
+
+.modal-3-car-display .content,
+.modal-golf-car-display .content,
+.modal-passat-car-display .content,
+.modal-passat-v-car-display .content {
+  width: 37.5%;
+  height: 15.6rem;
+  background: #0E1118;
+}
+
+.logo-frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.modal-3-car-display .logo-frame,
+.modal-golf-car-display .logo-frame,
+.modal-passat-car-display .logo-frame,
+.modal-passat-v-car-display .logo-frame {
+  padding-left: 12px;
+}
+
+.line-above-logo {
+  width: 1px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.60);
+}
+
+.line-below-logo {
+  width: 1px;
+  height: 158px;
+  background: rgba(255, 255, 255, 0.60);
+}
+
+.logo {
+  display: flex;
+  width: 49px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo>img {
+  width: 100%;
+}
+
+.main-banner-content .text-content {
+  display: inline-flex;
+  height: 174px;
+  padding: 38.5px 0 0 23px;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.modal-3-car-display .text-content,
+.modal-golf-car-display .text-content,
+.modal-passat-car-display .text-content,
+.modal-passat-v-car-display .text-content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  margin-top: 9.6%;
+  margin-left: 4.34%;
+}
+
+.info-box {
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: #FFF;
+}
+
+.header {
+  font-family: 'VWBannerBold';
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #FFF;
+}
+
+.list {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.list-item {
+  display: flex;
+  height: 20px;
+  align-items: flex-start;
+  gap: 5px;
+  font-family: 'VWBannerRegular';
+}
+
+.list-item p {
+  text-transform: capitalize;
+  width: 215px;
+}
+
+.sub-header>p {
+  color: #FFF;
+  font-family: 'VWBannerRegular';
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.list-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.cta {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #FFF;
+}
+
+.cta p,
+.cta a {
+  color: #212E40;
+  font-family: 'VWBannerBold';
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.main-banner-container .image-content>div:not(.overlay-golf) {
+  width: 201px;
+  height: 250px;
+  flex-shrink: 0;
+  border: 0px solid #000;
+  position: relative;
+  box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
+}
+
+.image-content>.golf {
+  position: relative;
+  background-image: url('assets/images/golf-home-page.png');
+  background-position: -53.341px 25.558px;
+  background-size: 157.7% 84.538%;
+}
+
+.image-content>.passat {
+  background-image: url('assets/images/passat-home-page.png');
+  background-position: -39.51px 31.644px;
+  background-size: 146.58% 78.577%;
+}
+
+.image-content>.passat-v {
+  background-image: url('assets/images/passat-v-home-page.png');
+  background-position: -40.891px 36.512px;
+  background-size: 141.617% 75.916%;
+}
+
+.golf>p,
+.passat>p,
+.passat-v>p {
+  color: #212E40;
+  font-family: 'VWBannerBold';
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 105%;
+}
+
+.main-banner-container .overlay-golf,
+.main-banner-container .overlay-passat,
+.main-banner-container .overlay-passat-v {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.20);
+
+}
+
+.main-banner-container .overlay-section-left {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.351);
+
+}
+
+.modal-3-car-display .image-content {
+
+  background: url('assets/images/hero.jpg'), lightgray 318.353px -6.235px / 67.144% 134.304% no-repeat;
+  background-size: 117%;
+  background-position: 53% -24%;
+  box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
+}
+
+.modal-golf-car-display .image-content {
+  background: url('assets/images/golf-hero.jpg'), lightgray 122px -68px / 90.994% 153.376% no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
+  background-size: 148%;
+  background-position: 96% 37%;
+}
+
+.modal-passat-car-display .image-content {
+  background: url('assets/images/passat-hero.jpg'), lightgray 122px -68px / 90.994% 153.376% no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
+  background-size: 154%;
+  background-position: 0% 43%;
+}
+
+.modal-passat-v-car-display .image-content {
+  background: url('assets/images/passat-v-hero.jpg'), lightgray 122px -68px / 90.994% 153.376% no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(43, 59, 84, 0.43) inset;
+  background-size: 148%;
+  background-position: 100% 66%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 39px;
+  right: 39px;
+}
+
+.close-btn>img {
+  width: 20px;
+  height: 20px;
+}
+
+.highlighter {
+  position: absolute;
+  top: 13.26%;
+  left: 38.8%;
+
+}
+
+#modal-golf-car-display .highlighter {
+  top: 27.26%;
+  left: 43.8%;
+}
+
+#modal-passat-car-display .highlighter {
+  top: 51.26%;
+  left: 82.8%;
+}
+
+#modal-passat-v-car-display .highlighter {
+  top: 0.26%;
+  left: 66.8%;
+}
+
+.highlighter-shape {
+  width: 100px;
+  height: 100px;
+}
+
+.highlighter p {
+  position: relative;
+  top: -78px;
+  left: 17px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'VWBannerRegular';
+  font-size: 16px;
+  text-transform: capitalize;
+  width: 70px;
+  height: 34px;
+}
