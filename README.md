@@ -20,7 +20,7 @@ Volkswagen website and general automotive ads were scanned for reference.
 ## Features
 
 Designed for 970x250 billboard ad.
-Page is responsive. Units like % and vw are predominantly used to achieve responsiveness.
+Flexbox and GSAP have been used for layouts and animations. Units like % and vw are predominantly used to achieve responsiveness.
 CTA leads to Volkswagen website.
 
 ## Animations and interactions
