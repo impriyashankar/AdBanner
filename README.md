@@ -1,6 +1,8 @@
 # AdBanner
 
 Live page [_here_](https://impriyashankar.github.io/AdBanner/).
+Design file [_click here_](https://www.figma.com/file/ekEbRcOmLzFWSbR48LwY6h/VW_Banner_Prototype?type=design&node-id=0-1&mode=design&t=uJpLNL7ALdse7leT-0)
+
 ## Background: 
 
 As the target audience is the business market, I attempted to include subtle animations and interactions. The user is invited to unveil a better look of the car models through continuous colour overlays on the cars. A close button on the new display helps close the modal and return to home display.
